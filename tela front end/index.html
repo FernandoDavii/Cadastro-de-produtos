@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Minha página de Produtos</h1>
+    </header>
+    <main>
+        <div class="title">
+            <h2>Produtos</h2>
+            <span>Lista de Produtos da minha loja</span>
+        </div>
+        <div class="card">
+            <div class="lineinput">
+                Produto:<input type="text" id="produto" placeholder="Nome do Produto" autocomplete="off">
+            </div>
+            <div class="lineinput">
+                Valor: <input type="number" id="valor" placeholder="Valor do produto" autocomplete="off">
+            </div>
+            <button onclick="produto.salvar()" id="btn1">Salvar</button>
+            <button onclick="produto.cancelar()">Cancelar</button>
+        </div>
+        <div class="tabela">
+            <table border="1">
+                <thead>
+                    <th class="center">ID</th>
+                    <th>Produto</th>
+                    <th>Valor</th>
+                    <th class="center">Ações</th>
+                </thead>
+                <tbody id="tbody"> 
+                </tbody>
+            </table>
+
+        </div>
+    </main>    
+</body>
+</html>

@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(72, 179, 250);
+}
+section{
+    background-color: white;
+    width: 450px;
+    height: 600px;
+    border-radius: 10px;
+
+}
+#flista{
+    margin-top: 20px;
+    width: 175px;
+    height: 200px;
+    margin-bottom: 10px;
+}
